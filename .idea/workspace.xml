@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca90e0d3-f8ae-4444-935c-464963540237" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2kykxCuVYeSU0HpkwubvD7snCXF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.MainWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PDFReader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SwimmerInfoDialog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WebScraper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/2005e/PycharmProjects/Rudolpher/main.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RudolphTables" />
+      <recent name="$PROJECT_DIR$/Src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="PDFReader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rudolpher" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RudolphTables" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RudolphTables/PDFReader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SwimmerInfoDialog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rudolpher" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interface/SwimmerInfoDialog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rudolpher" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.PDFReader" />
+      <item itemvalue="Python.SwimmerInfoDialog" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.PDFReader" />
+        <item itemvalue="Python.SwimmerInfoDialog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca90e0d3-f8ae-4444-935c-464963540237" name="Changes" comment="" />
+      <created>1724263448728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724263448728</updated>
+      <workItem from="1724263450929" duration="23000" />
+      <workItem from="1729180639354" duration="5000" />
+      <workItem from="1729182104009" duration="1000" />
+      <workItem from="1729767222339" duration="3000" />
+      <workItem from="1731591684927" duration="6000" />
+      <workItem from="1731607434433" duration="4000" />
+      <workItem from="1731854033522" duration="1000" />
+      <workItem from="1732275294395" duration="1000" />
+      <workItem from="1732289672154" duration="4000" />
+      <workItem from="1733143325187" duration="1000" />
+      <workItem from="1733492632893" duration="3000" />
+      <workItem from="1733739842189" duration="196000" />
+      <workItem from="1735168318975" duration="8000" />
+      <workItem from="1736507870940" duration="96000" />
+      <workItem from="1736895397917" duration="3000" />
+      <workItem from="1737113397208" duration="853000" />
+      <workItem from="1737117936452" duration="693000" />
+      <workItem from="1737121275739" duration="7866000" />
+      <workItem from="1737144651607" duration="5414000" />
+      <workItem from="1737154892815" duration="5947000" />
+      <workItem from="1737194006799" duration="17311000" />
+      <workItem from="1737216037043" duration="2371000" />
+      <workItem from="1737219774602" duration="12000" />
+      <workItem from="1737219942945" duration="144000" />
+      <workItem from="1737220538162" duration="217000" />
+      <workItem from="1737225751452" duration="5504000" />
+      <workItem from="1737280346395" duration="610000" />
+      <workItem from="1737283421387" duration="270000" />
+      <workItem from="1737285423364" duration="978000" />
+      <workItem from="1737290871896" duration="521000" />
+      <workItem from="1737301571358" duration="1268000" />
+      <workItem from="1737302942882" duration="7366000" />
+      <workItem from="1737396750929" duration="6059000" />
+      <workItem from="1737410530424" duration="5781000" />
+      <workItem from="1737465484471" duration="2603000" />
+      <workItem from="1737468166405" duration="155000" />
+      <workItem from="1737480097592" duration="36000" />
+      <workItem from="1737483770309" duration="1867000" />
+      <workItem from="1737496064754" duration="2092000" />
+      <workItem from="1737498236240" duration="125000" />
+      <workItem from="1737498930421" duration="4000" />
+      <workItem from="1737535825361" duration="32000" />
+      <workItem from="1737582353621" duration="214000" />
+      <workItem from="1737797332714" duration="984000" />
+      <workItem from="1737799805723" duration="3256000" />
+      <workItem from="1737844145020" duration="105000" />
+      <workItem from="1737930894073" duration="6003000" />
+      <workItem from="1737937027944" duration="228000" />
+      <workItem from="1738081292082" duration="753000" />
+      <workItem from="1738344355826" duration="48000" />
+      <workItem from="1739373174115" duration="211000" />
+      <workItem from="1739780294778" duration="30000" />
+      <workItem from="1739781207361" duration="49000" />
+      <workItem from="1740510183246" duration="173000" />
+      <workItem from="1740510379231" duration="601000" />
+      <workItem from="1742147436243" duration="173000" />
+      <workItem from="1742147636682" duration="544000" />
+      <workItem from="1742150049397" duration="288000" />
+      <workItem from="1744305179057" duration="3214000" />
+      <workItem from="1744308434947" duration="1068000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.db" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Rudolpher$MainWindow.coverage" NAME="MainWindow Coverage Results" MODIFIED="1737157522254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interface" />
+    <SUITE FILE_PATH="coverage/Rudolpher$WebScraper.coverage" NAME="WebScraper Coverage Results" MODIFIED="1737130822649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Src" />
+    <SUITE FILE_PATH="coverage/Rudolpher$main.coverage" NAME="main Coverage Results" MODIFIED="1744308625747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1733739976875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Rudolpher$PDFReader.coverage" NAME="PDFReader Coverage Results" MODIFIED="1742150307230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RudolphTables" />
+    <SUITE FILE_PATH="coverage/Rudolpher$SwimmerInfoDialog.coverage" NAME="SwimmerInfoDialog Coverage Results" MODIFIED="1737310411124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Interface" />
+  </component>
+</project>
