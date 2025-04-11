@@ -87,7 +87,7 @@ python main.py
 ## 🧠 What does Rudolpher do?
 
 - The GUI allows you to add/remove swimmers and their information from the database.
-- The GUI also shows the ranking of boys/girls of a specific swimming club based on teh rudolph scores.
+- The GUI also shows the ranking of boys/girls of a specific swimming club based on the rudolph scores.
 - If no rudolph scores are available, the swimmers are ordered based on their name.
 - You can only add people from the swimming club specified in the Src/HTMLParser.py - get_athlete_info function.
 - By double-clicking on a swimmer in the table, you can refresh the rudolph score information.
