@@ -114,7 +114,7 @@ python main.py
 
 ## 🐍 Python Version
 
-- Python 3.10 or later is recommended.
+- Python 3.12 or later is recommended.
 
 ---
 
