@@ -134,7 +134,7 @@ class Rudolpher:
                                             "100m Butterfly", "200m Butterfly", "100m Backstroke", "200m Backstroke",
                                             "200m Medley", "400m Medley"]
 
-    def get_max_points(self, age_category: int, gender: str, season_bests: dict) -> list[float]:
+    def get_max_points(self, age_category: int, gender: str, season_bests: dict) -> dict[str, tuple[str, float]]:
         """
         Returns max rudolph points for both 25m and 50m course
         :param age_category: age category of the swimmer (10+)
@@ -146,21 +146,22 @@ class Rudolpher:
 
         rudolph_table = RudolphTable(age_category, gender)
 
-        total: list[float] = []
+        total: dict[str, tuple[str, float]] = {}  # {course: (stroke, punten)}
 
         for course in ["25m", "50m"]:
             season_half: int = 0
             highest: float = 0.0
-            # TODO: Expand functionality to provide proper working in both !&first half&! of the season and second half
+            best_stroke: str = ""
             for year in [str(cur_year - 1), str(cur_year)]:
                 for stroke in self.relevant_strokes:
-                    best_time = season_bests[stroke][course][year]
+                    best_time = season_bests[stroke][course].get(year)
                     if best_time is not None:
                         points = rudolph_table.get_rudolph_points(stroke, best_time, season_half)
-                        if highest < points:
+                        if points > highest:
                             highest = points
+                            best_stroke = stroke
                 season_half = 1
-            total.append(round(highest, 2))
+            total[course] = (best_stroke, round(highest, 2))
 
         print(total)
         return total

@@ -1,13 +1,20 @@
 import datetime
-
+import time
+import random
 import requests
 
 swimrankings_url = "https://www.swimrankings.net/index.php"
 
 swimrankings_headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate",
     "Referer": "https://www.swimrankings.net/index.php?page=athleteSearch",
-    "Content-Type": "application/x-www-form-urlencoded"}
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+}
+
 
 
 class WebScraper:
@@ -19,6 +26,9 @@ class WebScraper:
         """
         self.base_url = base_url
         self.headers = headers
+
+        self.session = requests.Session()
+        self.session.headers.update(self.headers)
 
     def swimmer_data(self, request_params: dict) -> str:
         """
@@ -47,18 +57,22 @@ class WebScraper:
                 "athlete_gender": gender_code, "athlete_lastname": last_name, "athlete_firstname": first_name}
 
     def swimmer_website(self, swimrankings_id: int) -> str:
-        """
-        Retrieves the swimmer's website using the swimrankings ID
-        :param swimrankings_id: The swimrankings ID of the swimmer
-        :returns: the html response of the swimmers times of the current season
-        """
-        current_year = datetime.date.year
+        current_year = datetime.date.today().year
+        params = {
+            "page": "athleteDetail",
+            "athleteId": swimrankings_id,
+            "result": current_year
+        }
 
-        request: str = f"{self.base_url}?page=athleteDetail&athleteId={swimrankings_id}&result={current_year}"
+        for attempt in range(5):
+            try:
+                response = self.session.post(self.base_url, params=params, timeout=10)
+                response.raise_for_status()
+                time.sleep(random.uniform(2, 5))
+                return response.text
+            except requests.exceptions.RequestException as e:
+                wait_time = (2 ** attempt) + random.random()
+                print(f"Attempt {attempt + 1} failed: {e}. Waiting {wait_time:.2f}s before retrying.")
+                time.sleep(wait_time)
 
-        response = requests.get(request, headers=self.headers, timeout=10)
-
-        if response.status_code == 200:
-            return response.text
-        else:
-            raise ValueError(f"Error tijdens ophalen gegevens van {self.base_url}")
+        raise ValueError("Kon de data niet ophalen na meerdere pogingen.")

@@ -168,12 +168,22 @@ class SwimmerTableDialog(QDialog):
             # Calculate the total rudolph points of the swimmer
             # Total = highest in short course + highest in long course
             total = self.rudolph_calculator.get_max_points(swimmer_info["age"], swimmer_info["gender"], season_bests)
-            new_total = round(total[0] + total[1], 3)
+
+            new_total = round(total["25m"][1] + total["50m"][1], 3)
 
             # Show the total rudolph points in a message box
-            QMessageBox.information(self, "Rudolph Punten",
-                                    f"Rudolph punten: 25m bad: {total[0]}, 50m bad: {total[1]}, Totaal: "
-                                    f"{new_total}", QMessageBox.Ok)
+            QMessageBox.information(
+                self,
+                "Rudolph Punten",
+                f"25m bad:\n"
+                f"\tSlag: {total['25m'][0]}\n"
+                f"\tPunten: {total['25m'][1]}\n\n"
+                f"50m bad:\n"
+                f"\tSlag: {total['50m'][0]}\n"
+                f"\tPunten: {total['50m'][1]}\n\n"
+                f"Totaal: {new_total}",
+                QMessageBox.Ok
+            )
 
             self.database.update_points(data["firstname"], data["lastname"], data["gender"], new_total)
 
